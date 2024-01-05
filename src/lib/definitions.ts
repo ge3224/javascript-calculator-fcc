@@ -1,3 +1,9 @@
+export const CLEAR = "clear";
+
+export const DECIMAL = "decimal";
+
+export const EQUALS = "equals";
+
 export enum Numeric {
   zero = "zero",
   one = "one",
@@ -22,4 +28,5 @@ export type KeyPad = {
   value: string;
   id: string;
   cssAmend: string;
+  handler: React.MouseEventHandler<HTMLButtonElement>;
 };

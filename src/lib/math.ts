@@ -1,6 +1,6 @@
 import { Operator } from "../lib/definitions";
 
-export function resolve(x: number, y: number, math: Operator): number {
+export function calculate(x: number, y: number, math: Operator): number {
   switch (math) {
     case Operator.add:
       return x + y;
